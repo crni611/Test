@@ -4,5 +4,5 @@ a {
 	width: auto;
 	content: '';
 	position: absolute;
-	
+	position: static;
 }
