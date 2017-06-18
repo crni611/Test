@@ -1,0 +1,57 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+.btn-main {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 300;
+	padding: 8px 45px;
+	background: #b1171a;
+	color: #fff !important;
+	border: 2px solid #b1171a;
+	border-radius: 3px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+	@include transition(0.3s);
+
+	&.dark {
+		background: #252525;
+		border: 2px solid #252525;
+
+		&:hover {
+			color: #252525 !important;
+		}
+	}
+
+	&:hover {
+		color: #b1171a !important;
+		background: #fff;
+		text-decoration: none;
+	}
+
+	&:visited {
+		color: #fff;
+	}
+}

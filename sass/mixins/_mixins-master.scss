@@ -1,0 +1,166 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// transition
+@mixin transition($dur) {
+    -webkit-transition: all $dur ease;
+    -moz-transition: all $dur ease;
+    -ms-transition: all $dur ease;
+    -o-transition: all $dur ease;
+    transition: all $dur ease;
+}
+
+@mixin transition-custom($trans...) {
+    -webkit-transition: $trans;
+    -moz-transition: $trans;
+    -ms-transition: $trans;
+    -o-transition: $trans;
+    transition: $trans;
+}
+
+// transform
+@mixin transform($args...) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    -o-transform: $args;
+    transform: $args;
+}
+
+@mixin transform-origin($args) {
+    -webkit-transform-origin: $args;
+    -moz-transform-origin: $args;
+    -ms-transform-origin: $args;
+    -o-transform-origin: $args;
+    transform-origin: $args;
+}
+
+@mixin transform-simple($args) {
+  -webkit-transform: translate($args);
+  -moz-transform: translate($args);
+  -ms-transform: translate($args);
+  transform: translate($args);
+}
+
+@mixin transform-x {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@mixin transform-y {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin kill-transform {
+  position: relative;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+// absolute center
+@mixin absolute-center($axis, $x0) {
+    $top: auto;
+    $left: auto;
+    $right: auto;
+    $translate: none;
+    @if $axis==Y {
+        $translate: translateY(-50%);
+        $top: 50%;
+        $left: $x0;
+        $right: auto;
+    }
+    @else if $axis==X {
+        $translate: translateX(-50%);
+        $top: $x0;
+        $left: 50%;
+        $right: auto;
+    }
+    @else if $axis==Yr {
+        $translate: translateY(-50%);
+        $top: 50%;
+        $left: auto;
+        $right: $x0;
+    }
+    @else {
+        $translate: translate(-50%, -50%);
+        $top: 50%;
+        $left: 50%;
+        $right: auto;
+    }
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    -webkit-transform: $translate;
+    -moz-transform: $translate;
+    -ms-transform: $translate;
+    -o-transform: $translate;
+    transform: $translate;
+}
+
+@mixin kill-absolute-center() {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+// flexbox directions
+@mixin direction-parent() {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+@mixin direction-child($i) {
+    -webkit-box-ordinal-group: $i;
+    -moz-box-ordinal-group: $i;
+    -ms-flex-order: $i;
+    -webkit-order: $i;
+    order: $i;
+}

@@ -1,0 +1,197 @@
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "header";
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "footer";
+
+/*--------------------------------------------------------------
+## Homepage
+--------------------------------------------------------------*/
+@import "homepage";
+
+/*--------------------------------------------------------------
+## Form
+--------------------------------------------------------------*/
+@import "form";
+
+/*--------------------------------------------------------------
+## All
+--------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('css/fonts/icomoon.eot?fyq4qc');
+  src:  url('css/fonts/icomoon.eot?fyq4qc#iefix') format('embedded-opentype'),
+    url('css/fonts/icomoon.ttf?fyq4qc') format('truetype'),
+    url('css/fonts/icomoon.woff?fyq4qc') format('woff'),
+    url('css/fonts/icomoon.svg?fyq4qc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: "\e907";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e901";
+}
+.icon-chevron-small-down:before {
+  content: "\e908";
+}
+.icon-chevron-small-up:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e904";
+}
+.icon-location:before {
+  content: "\e903";
+}
+.icon-location:before {
+  content: "\e903";
+}
+.icon-envelope:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+
+@font-face {
+	font-family: 'Georgia';
+	src: url('css/fonts/Georgia-Bold.eot');
+	src: url('css/fonts/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+		url('css/fonts/Georgia-Bold.woff') format('woff'),
+		url('css/fonts/Georgia-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.mobile-logos {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .nonmobile-logos {
+    display: none !important;
+  }
+  
+  .mobile-logos {
+    display: block;
+  }
+}
+
+.container-wide {
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.line {
+  position: relative;
+  padding-bottom: 40px;
+
+  &:before {
+    content: '';
+    @include transform-x;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background-color: #e0e0e0;
+  }
+
+  &:after {
+    content: '';
+    width: 100%;
+    max-width: 50px;
+    height: 4px;
+    bottom: -1px;
+    @include transform-x;
+    background-color: #b1171a;
+  }
+
+  &.left{
+    &:after {
+      @include transform(translateX(0));
+      left: 0;
+    }
+
+    &:before {
+      @include transform(translateX(0));
+      left: 0;
+      width: 50%;
+    }
+  }
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.jcf-focus, .jcf-focus * {
+  border-color: inherit !important;
+}
+
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+input[type="date"]::-webkit-input-placeholder{ 
+    visibility: hidden !important;
+}
+
+input[type=date]::-webkit-inner-spin-button, input[type=date]::-webkit-calendar-picker-indicator {
+   display: none;
+}
+
+
+@media (max-width: 992px) {
+  .container-wide {
+    padding: 0 3%;
+  }
+
+  .line {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    &.left:before {
+      width: 100% !important;
+    }
+  }
+}

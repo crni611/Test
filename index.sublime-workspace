@@ -1,0 +1,717 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background"
+			],
+			[
+				"lis",
+				"lisi\tlist-style-image"
+			],
+			[
+				"cen",
+				"centerMode"
+			],
+			[
+				"fs",
+				"fs:n\tfont-style:normal"
+			],
+			[
+				"kill",
+				"kill-transform"
+			],
+			[
+				"kil",
+				"kill-absolute-center"
+			],
+			[
+				"tra",
+				"transform-x"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bgr",
+				"bgr:n\tbackground-repeat:no-repeat"
+			],
+			[
+				"bre",
+				"break-word"
+			],
+			[
+				"kill-",
+				"kill-absolute-center"
+			],
+			[
+				"ta",
+				"ta:l\ttext-align:left"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bra",
+				"border-radius"
+			],
+			[
+				"f",
+				"fs\tfont-style"
+			],
+			[
+				"abs",
+				"absolute-center"
+			],
+			[
+				"sc",
+				"scale"
+			],
+			[
+				"tt",
+				"trf-t\ttransform: translate(${1:x}, ${2:y});"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"e",
+				"echo"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"center",
+				"centerer"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ce",
+				"centerer"
+			],
+			[
+				"texta",
+				"textarea"
+			],
+			[
+				"bgrc",
+				"background-color"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"txt",
+				"text-align"
+			],
+			[
+				"h",
+				"h:a\theight:auto"
+			],
+			[
+				"section-s",
+				"section-seven"
+			],
+			[
+				"se",
+				"section-six"
+			],
+			[
+				"mha",
+				"mah:n\tmax-height:none"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"bcol",
+				"border-color"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"tre",
+				"translate()"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"out",
+				"outline-style"
+			],
+			[
+				"outline",
+				"outline-color"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"n",
+				"initial"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"log",
+				"logo_header.png\tw:362 h:114"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"fsi",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/mixins/_mixins-master.scss",
+		"/C/wamp64/www/flathop/wp-content/themes/flathop/sass/mixins/_mixins-master.scss",
+		"/C/wamp64/www/flathop/wp-content/themes/flathop/js/design.js",
+		"/C/wamp64/www/flathop/wp-content/themes/flathop/functions.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/functions.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/single-calendars.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-joinus.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-calendar.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-joinus.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_site.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_header.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-calendar-single.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/single-calendar.php",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/js/design.js",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/sass/site/_site.scss",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/sass/site/_page-graphics.scss",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/sass/site/_page-marketing.scss",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/sass/site/_header-footer.scss",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/header.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-meetus.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-needs.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-sustainability.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-homepage.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-education.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-homepage.scss",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/functions.php",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/page-templates/page-graphics.php",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/page-templates/page-marketing.php",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/sass/site/_page-about.scss",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/page-templates/page-about.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp18798/public_html/art-video1/wp-content/themes/art-video/templates/template-homepage.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/templates/homepage-template.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/templates/graphics-template.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/footer.php",
+		"/C/Users/crni6/AppData/Roaming/Skype/My Skype Received Files/page-studies.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/js/design.js",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/header.php",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/footer.php",
+		"/C/wamp64/www/balkan-nights/wp-content/themes/balkan-nights/page-templates/page-homepage.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp10183/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/email-styles.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp14273/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/email-header.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp16425/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/email-order-items.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp17785/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/plain/email-addresses.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp17648/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/plain/customer-invoice.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp14082/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/customer-note.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp11714/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/customer-processing-order.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp14121/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/customer-refunded-order.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp12353/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/customer-completed-order.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp12697/public_html/gold/wordpress/wp-content/themes/barberia-main/barberia/woocommerce/emails/customer-invoice.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-mission.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/js/design.js",
+		"/C/Users/crni6/Desktop/comeunity/templates/page-sustainability.php",
+		"/C/Users/crni6/Desktop/comeunity/templates/page-mission.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/forms/_buttons.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp41332/public_html/engosmart/wp-content/themes/engo-smart/home.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-profile.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-children.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-donate.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-children.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/single-projects.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp41092/public_html/engosmart/wp-content/themes/engo-smart/page-template/newsroom-template.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp40821/public_html/engosmart/wp-content/themes/engo-smart/category-blog.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-project-single.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-donate.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/ultimate-member/templates/profile.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/404.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/search.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-404-search.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp36448/public_html/salt-papper/wp-content/themes/salt-papper/js/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp48344/public_html/salt-papper/wp-content/themes/salt-papper/templates/team.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-meetus.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_footer.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-mission.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp37633/public_html/agroberza2017/wp-content/themes/agroberza-theme/footer.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-sustainability.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/templates/page-profile.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp25916/public_html/graditeljns/wp-content/themes/graditeljns/js/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp27770/public_html/graditeljns/wp-content/themes/graditeljns/js/parallax.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp07661/public_html/wp-content/themes/jprecruitment/sass/site/_site.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp06543/public_html/wp-content/themes/jprecruitment/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp08201/public_html/wp-content/themes/jprecruitment/templates/homepage-template.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/sass/variables-site/_typography.scss",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.533/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp21450/public_html/wp-content/themes/jprecruitment/js/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp18466/public_html/wp-content/themes/jprecruitment/js/design.js",
+		"/C/Users/crni6/Desktop/_mixins-master.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp19433/public_html/wp-content/themes/jprecruitment/header.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp20827/public_html/wp-content/themes/jprecruitment/js/design.js",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/sass/site/_site.scss",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/sass/header-footer/_footer.scss",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/templates/privacy-template.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/sass/header-footer/_header.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/functions.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/footer.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp12495/public_html/fbs/wp-content/themes/fbs/js/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp17380/public_html/fbs/wp-content/themes/fbs/style.css",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/style.css",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-education.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp22025/public_html/engosmart/wp-content/themes/engo-smart/footer.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-needs.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/header.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp43921/public_html/salt-papper/wp-content/themes/salt-papper/templates/homepage.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp50673/public_html/salt-papper/wp-content/themes/salt-papper/archive-clients.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp40603/public_html/salt-papper/wp-content/themes/salt-papper/js/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp23105/public_html/salt-papper/wp-content/themes/salt-papper/functions.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp23082/public_html/salt-papper/wp-content/themes/salt-papper/single-clients.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/site/_page-basic.scss",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/variables-site/_variables-site.scss",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.678/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.092/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp09235/public_html/salt-papper/wp-content/themes/salt-papper/js/design.js",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp56918/public_html/tasteful-menus/index.html",
+		"/C/Users/crni6/AppData/Local/Temp/scp53799/public_html/tasteful-menus/js/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.377/design.js",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/typography/_typography.scss",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.700/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.016/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp25230/public_html/staragent-plus.zip",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.081/homepage-template.php",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/sass/mixins/_mixins-master.scss",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.618/homepage-template.php",
+		"/C/wamp64/www/comeunity/wp-content/themes/comeunity/sass/navigation/_navigation.scss",
+		"/C/wamp64/www/jprecruitment/wp-content/themes/jprecruitment/sass/typography/_copy.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp21304/public_html/engosmart/wp-content/themes/engo-smart/page-template/homepage-template.php",
+		"/C/Users/crni6/AppData/Local/Temp/Rar$DIa0.552/gistfile1.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp20543/public_html/geting/wp-content/themes/geting/templates/page-about.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp45097/public_html/character-media/wp-content/themes/character-media/js/design.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jprecruitment",
+			"sub-",
+			"sub",
+			"en",
+			"public_university_list",
+			"mobile",
+			"social-media",
+			"kill",
+			"clearfix",
+			"%);\n",
+			"border-",
+			"bottom-i",
+			"bottom",
+			"your order",
+			"your",
+			"wow",
+			"css",
+			"sing",
+			"singl",
+			"images_repeater",
+			"popup_images",
+			"pop-subtitele",
+			"ways",
+			"wazs",
+			"pop",
+			"sc-donate",
+			"ul",
+			"site-ma",
+			".um-406.um",
+			"butt",
+			"transition",
+			"@include transition",
+			"@include transition(",
+			"@include transition(.3s);",
+			"transitio",
+			"icomoon",
+			"test",
+			"siz",
+			"sub_banner_text_bold",
+			"post th",
+			"story_background",
+			"arb",
+			"to",
+			"TweenMax",
+			"scroll",
+			"TweenMax",
+			"facts",
+			"form",
+			"invol",
+			";\n",
+			"EL",
+			"scroll",
+			"<a class=\"scroll\" name=\"top\"></a>",
+			"stuff-box",
+			"s_facts",
+			"sub",
+			"<img src=\"<?php echo get_template_directory_uri(); ?>/images/testimonial_ico.jpg\" alt=\"\" />",
+			"test",
+			"ba",
+			"banne",
+			"content: \"\\e903\";",
+			"bann",
+			"testimonialBox",
+			"});\n",
+			"child",
+			"miss",
+			"misss",
+			"images",
+			"row",
+			"hands",
+			"data-wow-duration=\"1.5s\"",
+			"data-wow-duration=\"1s\"",
+			"bgvid",
+			"wow",
+			"bars",
+			"max",
+			"if",
+			"descr",
+			"transf",
+			"visit",
+			"size",
+			"%;",
+			"serv",
+			"fixed",
+			".fixed",
+			"fix",
+			"main-na",
+			"767",
+			"active",
+			"hambur",
+			"nav",
+			"@media",
+			"sticky",
+			"hands",
+			"transform",
+			"img",
+			"servi",
+			"@in",
+			"main",
+			"mainć",
+			"pdf",
+			"css",
+			"font",
+			"pdf",
+			"wp-h",
+			"sekunden",
+			"db",
+			"name",
+			"db_name",
+			"database",
+			"learn",
+			"fancybox wow flipInY",
+			"fancybox wow flipInY\" data-wow-delay=\"1.2s\"",
+			"arrow",
+			"multi",
+			"multi-",
+			"data",
+			"multimed",
+			"single-p",
+			"single",
+			".accordion:nth-child(odd)",
+			"gall",
+			"press",
+			"tehnics",
+			"name=\"",
+			"name",
+			"top",
+			"subs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"flathop",
+			"popup_images",
+			"pop-subtitle",
+			"multi",
+			"sc-donate popup-btn",
+			"",
+			"box",
+			"b_facts",
+			"n_facts",
+			"",
+			"data-wow-duration=\"1.3s\"",
+			"data-wow-duration=\"1.5s\"",
+			"data-wow-duration=\"1s\" data-wow-offset=\"100\"",
+			"data-wow-duration=\"1s\" data-wow-offset=\"-200\"",
+			"data-wow-duration=\"1s\" data-wow-offset=\"-100\"",
+			"fancybox wow slideInUp",
+			"fancybox wow flipInY\"",
+			"",
+			"class\"done\" fill=",
+			"",
+			"path",
+			"Popup 2",
+			"<?php if (ICL_LANGUAGE_CODE=='en') { \n\t\t\t\techo do_shortcode('[contact-form-7 id=\"476\" title=\"Popup 2 Eng\"]');\n\t\t\t} \n\t\t\telse { \n\t\t\t    echo do_shortcode('[contact-form-7 id=\"45\" title=\"Popup 1\"]');\n\t\t\t} ?>",
+			"<?php if (ICL_LANGUAGE_CODE=='en') { \n\techo do_shortcode('[contact-form-7 id=\"476\" title=\"Popup 2 Eng\"]');\n} \nelse { \n\techo do_shortcode('[contact-form-7 id=\"45\" title=\"Popup 1\"]');\n} ?>",
+			"six",
+			"#cedde4",
+			"fadeInUp",
+			"data-wow-duration=\"1.2s\"",
+			"data-wow-offset=\"200\" ",
+			"data-wow-offset=\"300\" data-wow-duration=\"1.6s\"",
+			"1.6s",
+			"2s",
+			"200",
+			"col-xxs-6 wow fadeInUp\" data-wow-delay=\".1s\"",
+			"Brano",
+			"utf8mb4_unicode_ci"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
