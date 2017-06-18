@@ -5,4 +5,5 @@ a {
 	content: '';
 	position: absolute;
 	position: static;
+	border-radius: 10px;
 }
