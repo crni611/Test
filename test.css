@@ -5,6 +5,10 @@ a {
 	content: '';
 	position: absolute;
 	position: static;
+<<<<<<< HEAD
 	position: relative;
 	
+=======
+	border-radius: 10px;
+>>>>>>> Branislav
 }
